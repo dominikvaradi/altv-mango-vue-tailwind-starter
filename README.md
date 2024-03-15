@@ -4,6 +4,8 @@ The project is a boilerplate for alt:V Mango Framework with Vue.js and TailwindC
 Mango Framework is a server-side framework for alt:V, which is a multiplayer modification for Grand Theft Auto V.
 Check out the [alt:V](https://altv.mp/) and [Mango Framework](https://altv-mango.vercel.app/) documentations for more information.
 
+The project utilizes the monorepo concept by [Turborepo](https://turbo.build/)
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/)
@@ -34,5 +36,6 @@ The project is using [pnpm](https://pnpm.io/) as a package manager, but you can 
 You can start the development server with the following command: `pnpm run dev`
 This will start the development server with hot module replacement (HMR).
 
-You can enable or disable player reconnection on core module restart by setting the `RECONNECT_PLAYERS_ON_CORE_MODULE_RESTART` environment variable to `true` or `false` in the `package.json` file.
-To achieve this, you can run the following command: `pnpm run dev:reconnect-players-true`
+You can enable or disable player reconnection on core module restart by setting the `RECONNECT_PLAYERS_ON_CORE_MODULE_RESTART` environment variable to `true` or `false` running the `pnpm run dev` script.
+
+To enable player reconnection on core module restart by default, you can run the following command: `pnpm run dev:reconnect-players-true`
