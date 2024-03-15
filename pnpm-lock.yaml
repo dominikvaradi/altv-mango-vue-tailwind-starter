@@ -41,7 +41,7 @@ importers:
         version: 0.12.0
       '@altv-mango/client':
         specifier: ^1.2.28
-        version: 1.2.28(@altv-mango/core@1.2.28)
+        version: 1.2.28(@altv-mango/core@1.2.29)
       '@swc/cli':
         specifier: ^0.3.10
         version: 0.3.10(@swc/core@1.4.8)
@@ -64,8 +64,8 @@ importers:
         specifier: ^0.12.0
         version: 0.12.0
       '@altv-mango/server':
-        specifier: ^1.2.28
-        version: 1.2.28(@altv-mango/core@1.2.28)
+        specifier: ^1.2.29
+        version: 1.2.29(@altv-mango/core@1.2.29)
       '@altv/server':
         specifier: ^0.0.37
         version: 0.0.37
@@ -105,7 +105,7 @@ importers:
     dependencies:
       '@altv-mango/webview':
         specifier: ^1.2.28
-        version: 1.2.28(@altv-mango/core@1.2.28)
+        version: 1.2.28(@altv-mango/core@1.2.29)
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
@@ -167,9 +167,6 @@ importers:
       debounce:
         specifier: ^2.0.0
         version: 2.0.0
-      dotenv:
-        specifier: ^16.4.5
-        version: 16.4.5
     devDependencies:
       '@types/node':
         specifier: ^20.11.28
@@ -196,13 +193,13 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@altv-mango/client@1.2.28(@altv-mango/core@1.2.28):
+  /@altv-mango/client@1.2.28(@altv-mango/core@1.2.29):
     resolution: {integrity: sha512-R+FfswM5gZh1yHQLgL+wwUDCRi+P5m4wi68Hmme4Zhb3gM2bGXCjiSx93pD+QSOfiGHHLiG+sBRBdDLMyJG+Xg==}
     peerDependencies:
       '@altv-mango/core': ^1.2.28
     dependencies:
       '@abraham/reflection': 0.12.0
-      '@altv-mango/core': 1.2.28
+      '@altv-mango/core': 1.2.29
       '@altv/client': 0.0.30
       '@altv/natives': 0.0.8
       '@altv/shared': 0.0.14
@@ -210,8 +207,8 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@altv-mango/core@1.2.28:
-    resolution: {integrity: sha512-ICyo9y8gkBGT7Y8WdRjrUdeLrobfcZl7FPYLsrJENTtQcJUIoEchX8PAAgTbj/niJ4u+WumOeb7k/td54irBQA==}
+  /@altv-mango/core@1.2.29:
+    resolution: {integrity: sha512-DBc7IxeydKNlU0AnqkHcRJUwv6uPlO3Iq5U0stNojZUbPK7H6hUk8ip6vDd51OtxrRy3ugDpmQUEg5cD9WfRhw==}
     dependencies:
       '@abraham/reflection': 0.12.0
       '@altv/client': 0.0.30
@@ -220,25 +217,25 @@ packages:
       inversify: 6.0.2
       zod: 3.22.4
 
-  /@altv-mango/server@1.2.28(@altv-mango/core@1.2.28):
-    resolution: {integrity: sha512-KSTLRTCvV3hL5+xDIHPdDhkLBbgijMdD2PD3GBKYPGrtED8Vl3ef62wEwRaxCKHBpNH3rjwY9cgCK7M09v+2VA==}
+  /@altv-mango/server@1.2.29(@altv-mango/core@1.2.29):
+    resolution: {integrity: sha512-5oeukKo/l5ednIX81BQpb4wVUK42QiPpyTMDjbvSe+OSf94klPDHZs2eHUR3sJ33bdndYEib37EGZit7E/tquw==}
     peerDependencies:
-      '@altv-mango/core': ^1.2.28
+      '@altv-mango/core': ^1.2.29
     dependencies:
       '@abraham/reflection': 0.12.0
-      '@altv-mango/core': 1.2.28
+      '@altv-mango/core': 1.2.29
       '@altv/server': 0.0.37
       '@altv/shared': 0.0.14
       inversify: 6.0.2
       zod: 3.22.4
     dev: false
 
-  /@altv-mango/webview@1.2.28(@altv-mango/core@1.2.28):
+  /@altv-mango/webview@1.2.28(@altv-mango/core@1.2.29):
     resolution: {integrity: sha512-YLK97xLIM94r5GHRX++DWUCPgLGivRg+zjricTvj1BuZLa3/mMkF+yTD/VTS4SE981xTtFYM0LL+x/nIzdPvFQ==}
     peerDependencies:
       '@altv-mango/core': ^1.2.28
     dependencies:
-      '@altv-mango/core': 1.2.28
+      '@altv-mango/core': 1.2.29
       '@altv/shared': 0.0.14
       '@altv/webview': 0.0.6(@altv/shared@0.0.14)
     dev: false
@@ -1802,7 +1799,7 @@ packages:
       node-fetch: 2.7.0
       ws: 7.5.9
     optionalDependencies:
-      register-scheme: github.com/devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17
+      register-scheme: git@github.com+devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -1819,11 +1816,6 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
-
-  /dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
-    engines: {node: '>=12'}
-    dev: false
 
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -4761,8 +4753,8 @@ packages:
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
-  github.com/devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17:
-    resolution: {tarball: https://codeload.github.com/devsnek/node-register-scheme/tar.gz/e7cc9a63a1f512565da44cb57316d9fb10750e17}
+  git@github.com+devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17:
+    resolution: {commit: e7cc9a63a1f512565da44cb57316d9fb10750e17, repo: git@github.com:devsnek/node-register-scheme.git, type: git}
     name: register-scheme
     version: 0.0.2
     requiresBuild: true
