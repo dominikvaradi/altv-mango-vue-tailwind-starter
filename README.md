@@ -38,4 +38,4 @@ This will start the development server with hot module replacement (HMR).
 
 You can enable or disable player reconnection on core module restart by setting the `RECONNECT_PLAYERS_ON_CORE_MODULE_RESTART` environment variable to `true` or `false` running the `pnpm run dev` script.
 
-To enable player reconnection on core module restart by default, you can run the following command: `pnpm run dev:reconnect-players-true`
+To enable player reconnection on core module restart by default, you can run the `pnpm run dev:reconnect-players-true` command instead of `pnpm run dev`
