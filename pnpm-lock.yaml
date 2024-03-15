@@ -104,8 +104,8 @@ importers:
   resources/core/webview:
     dependencies:
       '@altv-mango/webview':
-        specifier: ^1.2.28
-        version: 1.2.28(@altv-mango/core@1.2.29)
+        specifier: ^1.2.29
+        version: 1.2.29(@altv-mango/core@1.2.29)
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
@@ -230,10 +230,10 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@altv-mango/webview@1.2.28(@altv-mango/core@1.2.29):
-    resolution: {integrity: sha512-YLK97xLIM94r5GHRX++DWUCPgLGivRg+zjricTvj1BuZLa3/mMkF+yTD/VTS4SE981xTtFYM0LL+x/nIzdPvFQ==}
+  /@altv-mango/webview@1.2.29(@altv-mango/core@1.2.29):
+    resolution: {integrity: sha512-MhBQigCNaT2SdYXalditbnrFT8cZ7sp3RWjoJ5z5Rn6h4K42smnSt7/4wRnm4M4XsEEo1kUijJCfpLE26eFzEQ==}
     peerDependencies:
-      '@altv-mango/core': ^1.2.28
+      '@altv-mango/core': ^1.2.29
     dependencies:
       '@altv-mango/core': 1.2.29
       '@altv/shared': 0.0.14
