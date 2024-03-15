@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+
+# IDE files
+.vscode
+.idea
+
+# Turborepo files
+.turbo
+
+# Log files
+*.log
+pnpm-debug.log*
+
+# Output files
+dist
+
+# alt:V files
+/modules
+/data
+/cache
+/.server-crashes-cache
+libnodev2.dll
+altv-server.exe
+altv-crash-handler.exe
+
+# env files
+.env*
+!.env.example

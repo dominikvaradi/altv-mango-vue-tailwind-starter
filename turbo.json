@@ -1,0 +1,15 @@
+{
+    "$schema": "https://turborepo.org/schema.json",
+    "globalEnv": ["DEV_MODE"],
+    "pipeline": {
+        "build": {
+            "dependsOn": ["^build"],
+            "outputs": ["dist/**"]
+        },
+        "dev": {
+            "cache": false,
+            "persistent": true
+        },
+        "typecheck": {}
+    }
+}

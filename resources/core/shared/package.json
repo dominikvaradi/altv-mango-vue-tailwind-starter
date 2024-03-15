@@ -1,0 +1,14 @@
+{
+    "name": "@altv-resource/shared",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@swc/cli": "^0.3.10",
+        "@swc/core": "^1.4.8",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.2"
+    }
+}
