@@ -33,8 +33,8 @@ importers:
   resources/core/client:
     dependencies:
       '@altv/client':
-        specifier: ^0.0.30
-        version: 0.0.30
+        specifier: ^0.0.32
+        version: 0.0.32
     devDependencies:
       '@abraham/reflection':
         specifier: ^0.12.0
@@ -247,6 +247,10 @@ packages:
 
   /@altv/client@0.0.30:
     resolution: {integrity: sha512-it83jDhWwpUp4RQFituIwrkCIcGzQ1K9IFciq+pFhv2LTOQk+PDmb1ZXApWu7UC0txtxqEWitBk9M/m8ktAsmQ==}
+
+  /@altv/client@0.0.32:
+    resolution: {integrity: sha512-pxQBGs87ZyIWRsdw1MozgZw5W/4NgDzXChrBDMi5MRi9kZxMtmzRYMdpPCMCzulOOekGkgf5S065FwKsPfIXkg==}
+    dev: false
 
   /@altv/natives@0.0.8:
     resolution: {integrity: sha512-IH+qKLfySrxwTvh+eYvccTf+skKog7rB0INTsrVQUBtdtXH6CuAZ6feDvjEaCsGh6vEC86beGDEsZYmpq/sg5A==}
