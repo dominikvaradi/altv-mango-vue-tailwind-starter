@@ -41,7 +41,7 @@ importers:
         version: 0.12.0
       '@altv-mango/client':
         specifier: ^1.2.29
-        version: 1.2.29(@altv-mango/core@1.2.29)
+        version: 1.2.29(@altv-mango/core@1.3.4)
       '@swc/cli':
         specifier: ^0.3.10
         version: 0.3.10(@swc/core@1.4.8)
@@ -64,8 +64,8 @@ importers:
         specifier: ^0.12.0
         version: 0.12.0
       '@altv-mango/server':
-        specifier: ^1.2.29
-        version: 1.2.29(@altv-mango/core@1.2.29)
+        specifier: ^1.3.4
+        version: 1.3.4(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.4)(@altv/server@0.0.37)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
       '@altv/server':
         specifier: ^0.0.37
         version: 0.0.37
@@ -105,7 +105,7 @@ importers:
     dependencies:
       '@altv-mango/webview':
         specifier: ^1.2.29
-        version: 1.2.29(@altv-mango/core@1.2.29)
+        version: 1.2.29(@altv-mango/core@1.3.4)
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
@@ -193,13 +193,13 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@altv-mango/client@1.2.29(@altv-mango/core@1.2.29):
+  /@altv-mango/client@1.2.29(@altv-mango/core@1.3.4):
     resolution: {integrity: sha512-HqiVGJWqYLYJJ12tzv9VVDsrbIyd8h0yV4IQMELH1+3QCNn2PYBDNZgS3J65fYyO015UCIdgKomqscfKo+rQ9w==}
     peerDependencies:
       '@altv-mango/core': ^1.2.29
     dependencies:
       '@abraham/reflection': 0.12.0
-      '@altv-mango/core': 1.2.29
+      '@altv-mango/core': 1.3.4
       '@altv/client': 0.0.30
       '@altv/natives': 0.0.8
       '@altv/shared': 0.0.14
@@ -207,8 +207,8 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@altv-mango/core@1.2.29:
-    resolution: {integrity: sha512-DBc7IxeydKNlU0AnqkHcRJUwv6uPlO3Iq5U0stNojZUbPK7H6hUk8ip6vDd51OtxrRy3ugDpmQUEg5cD9WfRhw==}
+  /@altv-mango/core@1.3.4:
+    resolution: {integrity: sha512-/ssdxEV9oj3RS4P6jsO75LwCq8RP9dReQNyyTSVfTWFDondQc91FUvq/Zt9DVMbYm1TkqgHSH2a5U2ZCpLbPpg==}
     dependencies:
       '@abraham/reflection': 0.12.0
       '@altv/client': 0.0.30
@@ -217,25 +217,30 @@ packages:
       inversify: 6.0.2
       zod: 3.22.4
 
-  /@altv-mango/server@1.2.29(@altv-mango/core@1.2.29):
-    resolution: {integrity: sha512-5oeukKo/l5ednIX81BQpb4wVUK42QiPpyTMDjbvSe+OSf94klPDHZs2eHUR3sJ33bdndYEib37EGZit7E/tquw==}
+  /@altv-mango/server@1.3.4(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.4)(@altv/server@0.0.37)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
+    resolution: {integrity: sha512-eGn7djcLwtf6ggZ/i/CV7sP5hm/lr2mTnNKJ2GJ7M6/8MnZqLlD0ciTKoufHS5DZcGY/6SNKtotzuoHE0G+kUQ==}
     peerDependencies:
-      '@altv-mango/core': ^1.2.29
+      '@abraham/reflection': ^0.12.0
+      '@altv-mango/core': ^1.3.4
+      '@altv/server': ^0.0.37
+      '@altv/shared': ^0.0.14
+      inversify: ^6.0.2
+      zod: ^3.22.4
     dependencies:
       '@abraham/reflection': 0.12.0
-      '@altv-mango/core': 1.2.29
+      '@altv-mango/core': 1.3.4
       '@altv/server': 0.0.37
       '@altv/shared': 0.0.14
       inversify: 6.0.2
       zod: 3.22.4
     dev: false
 
-  /@altv-mango/webview@1.2.29(@altv-mango/core@1.2.29):
+  /@altv-mango/webview@1.2.29(@altv-mango/core@1.3.4):
     resolution: {integrity: sha512-MhBQigCNaT2SdYXalditbnrFT8cZ7sp3RWjoJ5z5Rn6h4K42smnSt7/4wRnm4M4XsEEo1kUijJCfpLE26eFzEQ==}
     peerDependencies:
       '@altv-mango/core': ^1.2.29
     dependencies:
-      '@altv-mango/core': 1.2.29
+      '@altv-mango/core': 1.3.4
       '@altv/shared': 0.0.14
       '@altv/webview': 0.0.6(@altv/shared@0.0.14)
     dev: false
