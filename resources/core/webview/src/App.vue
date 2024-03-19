@@ -1,13 +1,11 @@
 <script setup lang="ts">
+import { useMango } from "@/composables/useMango";
 import { onMounted } from "vue";
-import { initMango } from "@altv-mango/webview";
-import { useMangoStore } from "@/stores/mango";
 
-const mangoStore = useMangoStore();
+const mango = useMango();
 
 onMounted(() => {
-    const mango = initMango();
-    mangoStore.setMango(mango);
+    mango.logger.log("Test");
 });
 </script>
 
