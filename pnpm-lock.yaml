@@ -104,8 +104,8 @@ importers:
   resources/core/webview:
     dependencies:
       '@altv-mango/webview':
-        specifier: ^1.3.4
-        version: 1.3.4(@altv-mango/core@1.3.6)(@altv/shared@0.0.14)(@altv/webview@0.0.6)
+        specifier: ^1.3.6
+        version: 1.3.6(@altv-mango/core@1.3.6)(@altv/shared@0.0.14)(@altv/webview@0.0.6)
       vue:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
@@ -238,10 +238,10 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@altv-mango/webview@1.3.4(@altv-mango/core@1.3.6)(@altv/shared@0.0.14)(@altv/webview@0.0.6):
-    resolution: {integrity: sha512-i4bz79AMp7fzD+9ivZGAeQc1P3cXhyPV+DpRGaLa/3ahBz6GiKdv0QZTae6HJLNMs49G4yBGZvr0BKVMW63w4g==}
+  /@altv-mango/webview@1.3.6(@altv-mango/core@1.3.6)(@altv/shared@0.0.14)(@altv/webview@0.0.6):
+    resolution: {integrity: sha512-+UMYG4D9M8sF/701AjBwDAHWknjDC00fgm7hqBn7iFy+H3v11KcNv7EDb84ACz3CFZ3srIkM0j5wqy8XB6bsuQ==}
     peerDependencies:
-      '@altv-mango/core': ^1.3.4
+      '@altv-mango/core': ^1.3.6
       '@altv/shared': ^0.0.14
       '@altv/webview': ^0.0.6
     dependencies:
