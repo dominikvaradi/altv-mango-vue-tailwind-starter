@@ -41,7 +41,7 @@ importers:
         version: 0.12.0
       '@altv-mango/client':
         specifier: ^1.3.4
-        version: 1.3.4(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.4)(@altv/client@0.0.30)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
+        version: 1.3.4(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.4)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
       '@swc/cli':
         specifier: ^0.3.10
         version: 0.3.10(@swc/core@1.4.8)
@@ -49,8 +49,8 @@ importers:
         specifier: ^1.4.8
         version: 1.4.8
       '@types/node':
-        specifier: ^20.11.28
-        version: 20.11.28
+        specifier: ^20.11.30
+        version: 20.11.30
       tsup:
         specifier: ^8.0.2
         version: 8.0.2(@swc/core@1.4.8)(typescript@5.4.2)
@@ -77,8 +77,8 @@ importers:
         specifier: ^1.4.8
         version: 1.4.8
       '@types/node':
-        specifier: ^20.11.28
-        version: 20.11.28
+        specifier: ^20.11.30
+        version: 20.11.30
       tsup:
         specifier: ^8.0.2
         version: 8.0.2(@swc/core@1.4.8)(typescript@5.4.2)
@@ -106,9 +106,6 @@ importers:
       '@altv-mango/webview':
         specifier: ^1.3.4
         version: 1.3.4(@altv-mango/core@1.3.4)(@altv/shared@0.0.14)(@altv/webview@0.0.6)
-      pinia:
-        specifier: ^2.1.7
-        version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
       vue:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
@@ -120,8 +117,8 @@ importers:
         specifier: ^20.1.2
         version: 20.1.2
       '@types/node':
-        specifier: ^20.11.28
-        version: 20.11.28
+        specifier: ^20.11.30
+        version: 20.11.30
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
         version: 5.0.4(vite@5.1.6)(vue@3.4.21)
@@ -154,7 +151,7 @@ importers:
         version: 5.4.2
       vite:
         specifier: ^5.1.6
-        version: 5.1.6(@types/node@20.11.28)
+        version: 5.1.6(@types/node@20.11.30)
       vue-tsc:
         specifier: ^2.0.6
         version: 2.0.6(typescript@5.4.2)
@@ -169,8 +166,8 @@ importers:
         version: 2.0.0
     devDependencies:
       '@types/node':
-        specifier: ^20.11.28
-        version: 20.11.28
+        specifier: ^20.11.30
+        version: 20.11.30
       tsup:
         specifier: ^8.0.2
         version: 8.0.2(@swc/core@1.4.8)(typescript@5.4.2)
@@ -193,7 +190,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@altv-mango/client@1.3.4(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.4)(@altv/client@0.0.30)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
+  /@altv-mango/client@1.3.4(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.4)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
     resolution: {integrity: sha512-b045dAcQFJsBQV9Hj96uOaUSY292g+HDjS73P8h67qaOqRxbzqRazixhpZkzd29a9KyS+Tm8Y2rpRP0P1NlScQ==}
     peerDependencies:
       '@abraham/reflection': ^0.12.0
@@ -206,7 +203,7 @@ packages:
     dependencies:
       '@abraham/reflection': 0.12.0
       '@altv-mango/core': 1.3.4
-      '@altv/client': 0.0.30
+      '@altv/client': 0.0.32
       '@altv/natives': 0.0.8
       '@altv/shared': 0.0.14
       inversify: 6.0.2
@@ -258,7 +255,6 @@ packages:
 
   /@altv/client@0.0.32:
     resolution: {integrity: sha512-pxQBGs87ZyIWRsdw1MozgZw5W/4NgDzXChrBDMi5MRi9kZxMtmzRYMdpPCMCzulOOekGkgf5S065FwKsPfIXkg==}
-    dev: false
 
   /@altv/natives@0.0.8:
     resolution: {integrity: sha512-IH+qKLfySrxwTvh+eYvccTf+skKog7rB0INTsrVQUBtdtXH6CuAZ6feDvjEaCsGh6vEC86beGDEsZYmpq/sg5A==}
@@ -934,7 +930,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.11.28
+      '@types/node': 20.11.30
       '@types/responselike': 1.0.3
     dev: true
 
@@ -953,11 +949,11 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.30
     dev: true
 
-  /@types/node@20.11.28:
-    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
+  /@types/node@20.11.30:
+    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -965,7 +961,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.30
     dev: true
 
   /@types/semver@7.5.8:
@@ -1115,7 +1111,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.6(@types/node@20.11.28)
+      vite: 5.1.6(@types/node@20.11.30)
       vue: 3.4.21(typescript@5.4.2)
     dev: true
 
@@ -1171,10 +1167,6 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.4.21
       '@vue/shared': 3.4.21
-
-  /@vue/devtools-api@6.6.1:
-    resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
-    dev: false
 
   /@vue/eslint-config-typescript@13.0.0(eslint-plugin-vue@9.23.0)(eslint@8.57.0)(typescript@5.4.2):
     resolution: {integrity: sha512-MHh9SncG/sfqjVqjcuFLOLD6Ed4dRAis4HNt0dXASeAuLqIAx4YMB1/m2o4pUKK1vCt8fUvYG8KKX2Ot3BVZTg==}
@@ -3505,24 +3497,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pinia@2.1.7(typescript@5.4.2)(vue@3.4.21):
-    resolution: {integrity: sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==}
-    peerDependencies:
-      '@vue/composition-api': ^1.4.0
-      typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.3.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-      typescript:
-        optional: true
-    dependencies:
-      '@vue/devtools-api': 6.6.1
-      typescript: 5.4.2
-      vue: 3.4.21(typescript@5.4.2)
-      vue-demi: 0.14.7(vue@3.4.21)
-    dev: false
-
   /pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
@@ -4531,7 +4505,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@5.1.6(@types/node@20.11.28):
+  /vite@5.1.6(@types/node@20.11.30):
     resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4559,28 +4533,13 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.11.30
       esbuild: 0.19.12
       postcss: 8.4.36
       rollup: 4.13.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
-
-  /vue-demi@0.14.7(vue@3.4.21):
-    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-    dependencies:
-      vue: 3.4.21(typescript@5.4.2)
-    dev: false
 
   /vue-eslint-parser@9.4.2(eslint@8.57.0):
     resolution: {integrity: sha512-Ry9oiGmCAK91HrKMtCrKFWmSFWvYkpGglCeFAIqDdr9zdXmMMpJOmUJS7WWsW7fX81h6mwHmUZCQQ1E0PkSwYQ==}
