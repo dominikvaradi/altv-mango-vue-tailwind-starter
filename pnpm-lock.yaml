@@ -41,7 +41,7 @@ importers:
         version: 0.12.0
       '@altv-mango/client':
         specifier: ^1.3.6
-        version: 1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.6)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
+        version: 1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.7)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
       '@swc/cli':
         specifier: ^0.3.10
         version: 0.3.10(@swc/core@1.4.8)
@@ -65,7 +65,7 @@ importers:
         version: 0.12.0
       '@altv-mango/server':
         specifier: ^1.3.6
-        version: 1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.6)(@altv/server@0.0.37)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
+        version: 1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.7)(@altv/server@0.0.37)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4)
       '@altv/server':
         specifier: ^0.0.37
         version: 0.0.37
@@ -104,8 +104,8 @@ importers:
   resources/core/webview:
     dependencies:
       '@altv-mango/webview':
-        specifier: ^1.3.4
-        version: 1.3.4(@altv-mango/core@1.3.6)(@altv/shared@0.0.14)(@altv/webview@0.0.6)
+        specifier: ^1.3.7
+        version: 1.3.7(@altv-mango/core@1.3.7)(@altv/shared@0.0.14)(@altv/webview@0.0.6)
       vue:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
@@ -190,7 +190,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@altv-mango/client@1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.6)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
+  /@altv-mango/client@1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.7)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
     resolution: {integrity: sha512-MaroNobuPv+t1Fz7O0oykOsE8fRY6wVP0ANaUI+VxGMZNrj6+seWA9GwuVz/+Oke69sT1KMh1AhxOCprJ5FIaA==}
     peerDependencies:
       '@abraham/reflection': ^0.12.0
@@ -202,7 +202,7 @@ packages:
       zod: ^3.22.4
     dependencies:
       '@abraham/reflection': 0.12.0
-      '@altv-mango/core': 1.3.6
+      '@altv-mango/core': 1.3.7
       '@altv/client': 0.0.32
       '@altv/natives': 0.0.8
       '@altv/shared': 0.0.14
@@ -210,8 +210,8 @@ packages:
       zod: 3.22.4
     dev: true
 
-  /@altv-mango/core@1.3.6:
-    resolution: {integrity: sha512-yGeV+RRhrkWKMsYBJy6i+z7NGQ62OsjL2an7jyDkvUe8hyuZD65OtR7H3Di/I/n3Eh8tYO4oMOwO+MEaF5F2CA==}
+  /@altv-mango/core@1.3.7:
+    resolution: {integrity: sha512-0Na1bYmg5+2zWWbbcpKL6L/9dL+pLAqbw5pcD1r1xViuHQmBLG+knOig8+sJN8JgjlQAS0iZBBqoNo7E1k4FAQ==}
     dependencies:
       '@abraham/reflection': 0.12.0
       '@altv/client': 0.0.30
@@ -220,7 +220,7 @@ packages:
       inversify: 6.0.2
       zod: 3.22.4
 
-  /@altv-mango/server@1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.6)(@altv/server@0.0.37)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
+  /@altv-mango/server@1.3.6(@abraham/reflection@0.12.0)(@altv-mango/core@1.3.7)(@altv/server@0.0.37)(@altv/shared@0.0.14)(inversify@6.0.2)(zod@3.22.4):
     resolution: {integrity: sha512-BzZ9d5zujxv4k8Ki/cJjS4mJkep0UPa8MjL/PshmIVh1DsUaMihKECYKH59NP2zueorPfbKfPDseGZaPNINbdQ==}
     peerDependencies:
       '@abraham/reflection': ^0.12.0
@@ -231,21 +231,21 @@ packages:
       zod: ^3.22.4
     dependencies:
       '@abraham/reflection': 0.12.0
-      '@altv-mango/core': 1.3.6
+      '@altv-mango/core': 1.3.7
       '@altv/server': 0.0.37
       '@altv/shared': 0.0.14
       inversify: 6.0.2
       zod: 3.22.4
     dev: false
 
-  /@altv-mango/webview@1.3.4(@altv-mango/core@1.3.6)(@altv/shared@0.0.14)(@altv/webview@0.0.6):
-    resolution: {integrity: sha512-i4bz79AMp7fzD+9ivZGAeQc1P3cXhyPV+DpRGaLa/3ahBz6GiKdv0QZTae6HJLNMs49G4yBGZvr0BKVMW63w4g==}
+  /@altv-mango/webview@1.3.7(@altv-mango/core@1.3.7)(@altv/shared@0.0.14)(@altv/webview@0.0.6):
+    resolution: {integrity: sha512-FhbCUxLFSq54QE0/eThjY3LnJHTel1GlhWUy5IFACmWaQaaIKOCsmb3dff71iHCl4rOZh//9Bc845DIU8IylKA==}
     peerDependencies:
-      '@altv-mango/core': ^1.3.4
+      '@altv-mango/core': ^1.3.7
       '@altv/shared': ^0.0.14
       '@altv/webview': ^0.0.6
     dependencies:
-      '@altv-mango/core': 1.3.6
+      '@altv-mango/core': 1.3.7
       '@altv/shared': 0.0.14
       '@altv/webview': 0.0.6(@altv/shared@0.0.14)
     dev: false
