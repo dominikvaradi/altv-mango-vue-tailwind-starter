@@ -111,8 +111,8 @@ importers:
         version: 3.4.21(typescript@5.4.3)
     devDependencies:
       '@rushstack/eslint-patch':
-        specifier: ^1.7.2
-        version: 1.7.2
+        specifier: ^1.9.0
+        version: 1.9.0
       '@tsconfig/node20':
         specifier: ^20.1.2
         version: 20.1.2
@@ -962,8 +962,8 @@ packages:
     dev: true
     optional: true
 
-  /@rushstack/eslint-patch@1.7.2:
-    resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
+  /@rushstack/eslint-patch@1.9.0:
+    resolution: {integrity: sha512-AAWymnpvHbGty1BmgbdfbqQDboXs6xN6h2yAacO4yKVyyUUBnpYkp+P9jjPrV9zrAGw7JVVriRtGOHPInnfjZQ==}
     dev: true
 
   /@sindresorhus/is@4.6.0:
