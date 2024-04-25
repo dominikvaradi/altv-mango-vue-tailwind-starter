@@ -33,15 +33,15 @@ importers:
   resources/core/client:
     dependencies:
       '@altv/client':
-        specifier: ^0.0.32
-        version: 0.0.32
+        specifier: ^0.0.34
+        version: 0.0.34
     devDependencies:
       '@abraham/reflection':
         specifier: ^0.12.0
         version: 0.12.0
       '@altv-mango/client':
         specifier: ^1.4.2
-        version: 1.4.2(@abraham/reflection@0.12.0)(@altv-mango/core@1.4.2)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.16)(inversify@6.0.2)(zod@3.23.3)
+        version: 1.4.2(@abraham/reflection@0.12.0)(@altv-mango/core@1.4.2)(@altv/client@0.0.34)(@altv/natives@0.0.8)(@altv/shared@0.0.16)(inversify@6.0.2)(zod@3.23.3)
       '@swc/cli':
         specifier: ^0.3.10
         version: 0.3.10(@swc/core@1.4.8)
@@ -190,7 +190,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@altv-mango/client@1.4.2(@abraham/reflection@0.12.0)(@altv-mango/core@1.4.2)(@altv/client@0.0.32)(@altv/natives@0.0.8)(@altv/shared@0.0.16)(inversify@6.0.2)(zod@3.23.3):
+  /@altv-mango/client@1.4.2(@abraham/reflection@0.12.0)(@altv-mango/core@1.4.2)(@altv/client@0.0.34)(@altv/natives@0.0.8)(@altv/shared@0.0.16)(inversify@6.0.2)(zod@3.23.3):
     resolution: {integrity: sha512-D2IkLlmrgLBWM+Up/9+CO2pSGFUGkJynfIi0p79P9czJhWcBHk/Y2ZqChsOp94RivOXe9XbdZrRP7BJwCKkQmg==}
     peerDependencies:
       '@abraham/reflection': ^0.12.0
@@ -203,7 +203,7 @@ packages:
     dependencies:
       '@abraham/reflection': 0.12.0
       '@altv-mango/core': 1.4.2
-      '@altv/client': 0.0.32
+      '@altv/client': 0.0.34
       '@altv/natives': 0.0.8
       '@altv/shared': 0.0.16
       inversify: 6.0.2
@@ -250,9 +250,6 @@ packages:
       '@altv/shared': 0.0.14
       '@altv/webview': 0.0.6(@altv/shared@0.0.14)
     dev: false
-
-  /@altv/client@0.0.32:
-    resolution: {integrity: sha512-pxQBGs87ZyIWRsdw1MozgZw5W/4NgDzXChrBDMi5MRi9kZxMtmzRYMdpPCMCzulOOekGkgf5S065FwKsPfIXkg==}
 
   /@altv/client@0.0.34:
     resolution: {integrity: sha512-Pw/MO5paOz5LclmpH1drSWlpQbO4RTP0eAabcd/MdZMI53AGfNw5AxXgrrpMXi/4cxAmL1xG+T6VvFYIZO6hNA==}
@@ -2028,7 +2025,7 @@ packages:
       node-fetch: 2.7.0
       ws: 7.5.9
     optionalDependencies:
-      register-scheme: git/github.com+devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17
+      register-scheme: git@github.com+devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -4980,7 +4977,7 @@ packages:
   /zod@3.23.3:
     resolution: {integrity: sha512-tPvq1B/2Yu/dh2uAIH2/BhUlUeLIUvAjr6dpL/75I0pCYefHgjhXk1o1Kob3kTU8C7yU1j396jFHlsVWFi9ogg==}
 
-  git/github.com+devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17:
+  git@github.com+devsnek/node-register-scheme/e7cc9a63a1f512565da44cb57316d9fb10750e17:
     resolution: {commit: e7cc9a63a1f512565da44cb57316d9fb10750e17, repo: git@github.com:devsnek/node-register-scheme.git, type: git}
     name: register-scheme
     version: 0.0.2
