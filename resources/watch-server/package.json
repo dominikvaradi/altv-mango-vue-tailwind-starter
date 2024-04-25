@@ -7,7 +7,7 @@
         "dev": "tsup --watch"
     },
     "dependencies": {
-        "@altv/server": "^0.0.37",
+        "@altv/server": "^0.0.40",
         "debounce": "^2.0.0"
     },
     "devDependencies": {
