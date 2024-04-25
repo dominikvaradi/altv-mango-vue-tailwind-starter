@@ -11,8 +11,8 @@
         "debounce": "^2.0.0"
     },
     "devDependencies": {
-        "@types/node": "^20.11.30",
+        "@types/node": "^20.12.7",
         "tsup": "^8.0.2",
-        "typescript": "^5.4.3"
+        "typescript": "^5.4.5"
     }
 }

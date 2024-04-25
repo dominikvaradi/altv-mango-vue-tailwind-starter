@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useMango } from "@/composables/useMango";
 import { onMounted } from "vue";
+import { useMango } from "@/composables/useMango";
 
 const mango = useMango();
 
