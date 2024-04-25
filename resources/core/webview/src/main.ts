@@ -2,7 +2,7 @@ import "./index.css";
 
 import { createApp } from "vue";
 import App from "@/App.vue";
-import MangoPlugin from "@/plugins/mango";
+import MangoPlugin from "@/plugins/mango-plugin";
 
 const app = createApp(App);
 

@@ -1,8 +1,7 @@
-import { getCurrentInstance } from "vue";
+import { inject, type ShallowRef, toValue } from "vue";
 import type { initMango } from "@altv-mango/webview";
 
 export const useMango = (): ReturnType<typeof initMango> => {
-    const app = getCurrentInstance();
-
-    return app?.appContext.config.globalProperties.$mango!;
+    const mangoRef = inject<Readonly<ShallowRef<ReturnType<typeof initMango>>>>("mango")!;
+    return toValue(mangoRef);
 };

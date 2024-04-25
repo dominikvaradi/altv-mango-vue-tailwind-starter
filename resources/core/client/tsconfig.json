@@ -10,26 +10,18 @@
         "moduleResolution": "Bundler",
         "allowUnusedLabels": false,
         "allowUnreachableCode": false,
-        "exactOptionalPropertyTypes": true,
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitOverride": true,
-        "noImplicitReturns": true,
         "noPropertyAccessFromIndexSignature": true,
-        "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "allowJs": true,
-        "checkJs": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "strictPropertyInitialization": false,
         "verbatimModuleSyntax": true,
+        "strictPropertyInitialization": false,
         "typeRoots": ["./node_modules/@types", "./node_modules/@altv", "./node_modules/@altv-mango"],
         "paths": {
-            "@shared/*": ["../shared/src/*"],
-            "@shared": ["../shared/src"]
+            "@shared/*": ["../shared/src/*"]
         }
     },
-    "include": ["./src/**/*.ts", "./tsup.config.ts"],
+    "include": ["./src/**/*.ts", "./tsup.config.ts", "../shared/src/**/*.ts"],
     "exclude": ["node_modules", "dist"]
 }
