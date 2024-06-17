@@ -14,7 +14,7 @@
         "vue": "^3.4.25"
     },
     "devDependencies": {
-        "@altv/shared": "^0.0.15",
+        "@altv/shared": "^0.0.19",
         "@rushstack/eslint-patch": "^1.10.2",
         "@tsconfig/node20": "^20.1.4",
         "@types/node": "^20.12.7",
